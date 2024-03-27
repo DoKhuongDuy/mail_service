@@ -1,4 +1,4 @@
-runtime: java8
+runtime: java17
 threadsafe: true
 
 inbound_services:
