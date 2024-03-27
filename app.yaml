@@ -1,0 +1,6 @@
+runtime: java8
+threadsafe: true
+
+inbound_services:
+  - mail
+  - mail_bounce
