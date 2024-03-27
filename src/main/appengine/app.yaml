@@ -1,5 +1,6 @@
-runtime: java17
+runtime: java
 threadsafe: true
+entrypoint: java -jar appengine-mail-j17-1.0-SNAPSHOT.war
 
 inbound_services:
   - mail
