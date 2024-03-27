@@ -1,7 +1,8 @@
-runtime: java
+runtime: java17
 threadsafe: true
-entrypoint: java -jar appengine-mail-j17-1.0-SNAPSHOT.war
 
 inbound_services:
   - mail
   - mail_bounce
+
+entrypoint: java -jar /home/duydk21/mail_service/target/appengine-mail-j17-1.0-SNAPSHOT.war
