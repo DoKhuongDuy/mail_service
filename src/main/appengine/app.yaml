@@ -1,0 +1,5 @@
+runtime: java8
+
+inbound_services:
+  - mail
+  - mail_bounce
