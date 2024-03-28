@@ -21,7 +21,7 @@
          version="3.1">
     <servlet>
         <servlet-name>mail</servlet-name>
-        <servlet-class>com.example.appengine.mail.MailServlet</servlet-class>
+        <servlet-class>com.example.demo.MailServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>mail</servlet-name>
@@ -31,7 +31,7 @@
     <!-- [START filter_handler] -->
     <filter>
         <filter-name>HandleDiscussionEmail</filter-name>
-        <filter-class>com.example.appengine.mail.HandleDiscussionEmail</filter-class>
+        <filter-class>com.example.demo.HandleDiscussionEmail</filter-class>
     </filter>
     <filter-mapping>
         <filter-name>HandleDiscussionEmail</filter-name>
